@@ -158,7 +158,28 @@ ul {
     text-transform: uppercase; 
 }
 
+.footer-confianzas-1 {
+    display: flex;
+}
 
+.footer > .footer-item >.footer-confianzas-1 > img {
+    width: 35px;
+    margin-left: 15px;
+}
 
+.footer > .footer-item >.footer-confianzas-2 > img {
+    width: 80px;    
+}
 
+.footer-confianzas-2 {
+    text-align: center;
+}
 
+.footer > .footer-item >.footer-confianzas-3 > img {
+    width: 70px;
+    margin-left: 15px;    
+}
+
+.footer-confianzas-3 {
+    display: flex;
+}
