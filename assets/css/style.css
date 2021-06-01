@@ -282,3 +282,28 @@ ul {
 .card-new-price {
     color: red;
 }
+
+
+/*-------------------- Product Page ------------------------*/
+
+.product-description{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.product-images{
+    width: 40%;
+    background-color: gray;
+}
+
+.ul-product-active-page{
+
+    display: inline-flex;
+    justify-content: center;
+    
+    margin: 12px auto;
+    width: 100%;
+}
