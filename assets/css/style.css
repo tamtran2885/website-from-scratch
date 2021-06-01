@@ -253,12 +253,21 @@ ul {
   grid-gap: 5px;
   grid-template-columns: repeat(4, 1fr);
   margin-bottom: 20px;
+  width: 80%;
+  margin: auto;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-bottom: 60px;
 }
 
 .card-content {
   width: 200px;
   height: 300px;
   border: 1px solid black;
+  width: 160px;
+  height: 200px;
+  /* border: 1px solid black; */
 }
 
 .card-content img {
@@ -274,6 +283,24 @@ ul {
 
 .card-price {
   display: flex;
+  margin-top: -10%;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 12px;
+}
+
+.card-details > p {
+  text-transform: capitalize;
+  color: grey;
+}
+
+.card-old-price {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.card-new-price {
+  color: red;
 }
 
 /*-------------------- Product Page ------------------------*/
