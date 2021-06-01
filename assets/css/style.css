@@ -236,6 +236,7 @@ ul {
 /* Card product */
 .card {
     width: 80%;
+    margin: auto;
     height: auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -246,7 +247,7 @@ ul {
 .card-content {
     width: 160px;
     height: 200px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 
