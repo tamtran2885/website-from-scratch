@@ -235,52 +235,44 @@ ul {
   object-fit: cover;
 }
 
+/* Label */
 .label {
-<<<<<<< HEAD
     display: flex;
     justify-content: center;
-    padding-bottom: 20px;
-    
-=======
-  display: flex;
-  justify-content: center;
-  padding-bottom: 20px;
->>>>>>> 87b06f61c6168bbb29d9afcdc7fc545c0242bf09
 }
 
-.link a {
+.label a {
   color: grey;
+  font-size: 10px;
 }
 
 .first-label {
-    min-width: 150px;
-    height: 40px;
+    min-width: 50px;
+    height: 20px;
     position: relative;
-    background: lightskyblue;
-    font-size: 15px;
+    background: lightpink;
     text-align: center;
-    vertical-align: middle;
+    margin-right: 10px;
 }
 
-.first-label:before {
-    content: "";
+.first-label:after {
+    content: '';
     position: absolute;
-    left: 0;
+    right: -10px;
     bottom: 0;
     width: 0;
     height: 0;
-    border-left: 20px solid white;
-    border-top: 20px solid transparent;
-    border-bottom: 20px solid transparent;
+    border-left: 10px solid lightpink;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
   }
 
 
 .last-label {
-    min-width: 150px;
-    height: 40px;
+    min-width: 100px;
+    height: 20px;
     position: relative;
     background: lightpink;
-    font-size: 15px;
     text-align: center;
     vertical-align: middle;
 }
@@ -292,10 +284,11 @@ ul {
     bottom: 0;
     width: 0;
     height: 0;
-    border-left: 20px solid white;
-    border-top: 20px solid transparent;
-    border-bottom: 20px solid transparent;
+    border-left: 10px solid white;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
 }
+
 
 /* Card product */
 .card {
@@ -316,7 +309,6 @@ ul {
 .card-content {
   width: 200px;
   height: 300px;
-  border: 1px solid black;
   width: 160px;
   height: 200px;
   /* border: 1px solid black; */
