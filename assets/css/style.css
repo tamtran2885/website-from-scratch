@@ -211,6 +211,8 @@ ul {
 }
 
 /* Category Page */ 
+
+/* category header image */ 
 .header-image-category {
     margin-bottom: 10px;
 }
@@ -229,4 +231,37 @@ ul {
 
 .link a {
     color: grey;
+}
+
+/* Card product */
+.card {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 20px;
+}
+
+
+.card-content {
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+
+.card-content img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.card-details {
+    text-align: center;
+    margin-top: -15%;
+}
+
+.card-price {
+    display: flex;
 }
