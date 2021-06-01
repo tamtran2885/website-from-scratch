@@ -20,6 +20,10 @@ body {
     margin: auto;
 }
 
+a:hover {
+    color: lightseagreen;
+}
+
 /* Header */
 
 .flex {
@@ -156,7 +160,7 @@ body {
 } 
 
 ul {
-    padding: 0;
+    padding: 0; /* eliminate indent from list items */
 }
 
 .footer-item {
