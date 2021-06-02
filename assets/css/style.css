@@ -89,6 +89,10 @@ body {
   background-color: #fbeeef;
 }
 
+.grid-item:hover  {
+  opacity: 0.5;
+}
+
 .grid-item-1 {
   grid-column: 1 / 3;
   min-height: 350px;
@@ -350,6 +354,10 @@ ul {
   width: 160px;
   height: 200px;
   /* border: 1px solid black; */
+}
+
+.card-content:hover {
+  filter: drop-shadow(8px 8px 10px gray)
 }
 
 .card-content img {
