@@ -655,3 +655,15 @@ path {
   padding: 10px;
   border: none;
 }
+
+.carousel-products-div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.carousel-other-products-section {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
