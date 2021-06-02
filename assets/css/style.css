@@ -455,8 +455,8 @@ ul {
 }
 
 path {
-  fill: green !IMPORTANT;
-} 
+  fill: green !important;
+}
 
 .faq-question {
   width: 200px;
@@ -646,4 +646,6 @@ path {
 
 .product-cart-button {
   margin-bottom: 10px;
+  background-color: lightcoral;
+  width: 100%;
 }
