@@ -248,10 +248,10 @@ ul {
 
 /* Label */
 .label {
-    margin-top: 70px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
 }
 
 .label a {
@@ -260,48 +260,80 @@ ul {
 }
 
 .first-label {
-    min-width: 50px;
-    height: 20px;
-    position: relative;
-    background: lightpink;
-    text-align: center;
-    margin-right: 10px;
+  min-width: 50px;
+  height: 20px;
+  position: relative;
+  background: lightpink;
+  text-align: center;
+  margin-right: 10px;
 }
 
 .first-label:after {
-    content: '';
-    position: absolute;
-    right: -10px;
-    bottom: 0;
-    width: 0;
-    height: 0;
-    border-left: 10px solid lightpink;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
-  }
+  content: "";
+  position: absolute;
+  right: -10px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 10px solid lightpink;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
 
+/*all labels that are not the first*/
+.not-first-label {
+  min-width: 100px;
+  height: 20px;
+  position: relative;
+  background: lightpink;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.not-first-label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 10px solid white;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+
+.not-first-label:after {
+  content: "";
+  position: absolute;
+  right: -10px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 10px solid lightpink;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
 
 .last-label {
-    min-width: 100px;
-    height: 20px;
-    position: relative;
-    background: lightpink;
-    text-align: center;
-    vertical-align: middle;
+  min-width: 100px;
+  height: 20px;
+  position: relative;
+  background: lightpink;
+  text-align: center;
+  vertical-align: middle;
 }
 
 .last-label:before {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    width: 0;
-    height: 0;
-    border-left: 10px solid white;
-    border-top: 10px solid transparent;
-    border-bottom: 10px solid transparent;
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 10px solid white;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
 }
-
 
 /* Card product */
 .card {
@@ -363,7 +395,7 @@ ul {
   filter: grayscale(100%);
   margin-top: -15px;
   margin-left: 66px;
-  z-index: 9999;   /* logo overlay the image */ 
+  z-index: 9999; /* logo overlay the image */
 }
 
 /*-------------------- F.A.Q Page --------------------------*/
@@ -374,7 +406,7 @@ ul {
   height: 60px;
 }
 
-.faq-header p{
+.faq-header p {
   text-align: center;
   font-size: 20px;
   font-weight: bold;
@@ -439,8 +471,7 @@ ul {
 .faq-question p {
   text-transform: uppercase;
   font-weight: bold;
-} 
-
+}
 
 /*-------------------- Product Page ------------------------*/
 
@@ -475,7 +506,9 @@ ul {
 }
 
 .ul-product-active-page li {
-  margin: 0px 7px 0px 0px;
+  margin: 0px 10px 0px 0px;
+  padding-left: 16px;
+  padding-right: 10px;
 }
 
 .ul-product-options h3 {
