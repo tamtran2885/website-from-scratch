@@ -494,7 +494,7 @@ ul {
 
 .product-images {
   width: 35%;
-  background-color: gray;
+  
 }
 
 .ul-product-active-page {
@@ -531,9 +531,37 @@ ul {
   font-weight: 400;
 }
 
+.product-old-price,
+.product-current-price {
+  font-size: 1rem;
+}
+
+.product-shipment {
+  margin-top: 4px;
+}
+
+.product-price {
+  margin-bottom: 0px;
+}
+
 /*.ul-other-finishes h3,
 .ul-details>h3*/
+.ul-details {
+  margin-left: 15px;
+}
 
+.ul-details li {
+  list-style: disc;
+}
 .product-pricing {
-  font-size: 0.63rem;
+  font
+  -size: 0.63rem;
+}
+
+
+/*Image product size*/
+
+.product-selected-image img{
+
+    width: 375px;
 }
