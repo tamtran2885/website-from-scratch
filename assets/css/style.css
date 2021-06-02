@@ -301,6 +301,39 @@ ul {
   border-bottom: 10px solid transparent;
 }
 
+.not-first-label {
+  min-width: 150px;
+  height: 20px;
+  position: relative;
+  background: lightpink;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.not-first-label:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 10px solid white;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+
+.not-first-label:after {
+  content: "";
+  position: absolute;
+  right: -10px;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-left: 10px solid lightpink;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+}
+
 /* Card product */
 .card {
   width: 80%;
@@ -478,7 +511,8 @@ ul {
 }
 
 .ul-product-active-page li {
-  margin: 0px 7px 0px 0px;
+  margin: 0px 10px 0px 0px;
+  padding-top: 1px;
 }
 
 .ul-product-options li h3 {
