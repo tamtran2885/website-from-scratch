@@ -235,8 +235,20 @@ ul {
   object-fit: cover;
 }
 
+.header-text {
+  position: relative;
+  margin-top: -200px;
+  padding-left: 40px;
+}
+
+.header-text h2 {
+  font-size: 65px;
+  color: aliceblue;
+}
+
 /* Label */
 .label {
+    margin-top: 70px;
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
@@ -422,7 +434,7 @@ ul {
 .faq-question p {
   text-transform: uppercase;
   font-weight: bold;
-} */
+} 
 
 
 /*-------------------- Product Page ------------------------*/
