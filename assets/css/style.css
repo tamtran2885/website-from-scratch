@@ -282,7 +282,7 @@ ul {
 
 
 .last-label {
-    min-width: 100px;
+    min-width: 150px;
     height: 20px;
     position: relative;
     background: lightpink;
@@ -525,8 +525,6 @@ ul {
 .product-pricing {
   font-size: 0.63rem;
 }
-<<<<<<< HEAD
-=======
 
 
 /*Image product size*/
@@ -546,4 +544,3 @@ ul {
     margin-bottom:10px;
 
 }
->>>>>>> a7c4a30837e8f4249b2a64136379568a0113a102
