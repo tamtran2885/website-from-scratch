@@ -281,12 +281,12 @@ ul {
 }
 
 .last-label {
-  min-width: 150px;
   height: 20px;
   position: relative;
   background: lightpink;
   text-align: center;
   vertical-align: middle;
+  min-width: 100px;
 }
 
 .last-label:before {
@@ -513,6 +513,9 @@ ul {
 .ul-product-active-page li {
   margin: 0px 10px 0px 0px;
   padding-top: 1px;
+  color: gray;
+  padding: 1px 7px 0px 20px;
+  min-width: fit-content;
 }
 
 .ul-product-options li h3 {
