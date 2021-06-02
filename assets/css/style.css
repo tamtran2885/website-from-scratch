@@ -525,6 +525,11 @@ ul {
   margin: 10px 0px 10px 0px;
 }
 
+.product-old-price,
+.product-current-price {
+  font-size: 1rem;
+}
+
 .ul-product-options li {
   border-bottom-width: 1px;
   border-bottom-color: lightgrey;
@@ -549,10 +554,16 @@ ul {
 
 .text-product-description {
   font-weight: 400;
+  margin-bottom: 10px;
 }
 
 /*.ul-other-finishes h3,
 .ul-details>h3*/
+
+.ul-details li {
+  list-style: disc;
+  margin-left: 14px;
+}
 
 .product-pricing {
   font-size: 0.63rem;
@@ -570,6 +581,26 @@ ul {
 .product-actual-image img,
 .product-other-image img {
   width: 65px;
+}
+
+.product-made-in {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.product-made-in li {
+  width: 60px;
+  text-align: center;
+  opacity: 0.6;
+}
+
+.product-made-in li p {
+  font-size: 0.6rem;
+  color: gray;
+}
+.product-made-in li img {
+  height: 35px;
 }
 
 .product-actual-image,
