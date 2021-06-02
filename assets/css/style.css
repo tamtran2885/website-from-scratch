@@ -12,6 +12,10 @@ li a {
   color: #000000;
 }
 
+a:hover {
+  color: #dc7480;
+}
+
 body {
   font-family: "Playfair Display";
   color: black;
@@ -711,4 +715,18 @@ ul {
 
 .arrow {
   fill: gray;
+}
+
+/* Enlarge image with hover */
+.product-selected-image:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
+.product-actual-image:hover,
+.product-other-image:hover {
+  -ms-transform: scale(2); /* IE 9 */
+  -webkit-transform: scale(2); /* Safari 3-8 */
+  transform: scale(2); 
 }
