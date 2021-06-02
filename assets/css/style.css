@@ -64,6 +64,10 @@ body {
   color: black;
 }
 
+.main-nav a:last-child {
+  font-weight: bolder;
+}
+
 .header-image {
   margin-bottom: 10px;
 }
