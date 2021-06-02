@@ -280,42 +280,8 @@ ul {
   border-bottom: 10px solid transparent;
 }
 
-/*all labels that are not the first*/
-.not-first-label {
-  min-width: 100px;
-  height: 20px;
-  position: relative;
-  background: lightpink;
-  text-align: center;
-  vertical-align: middle;
-}
-
-.not-first-label:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 0;
-  height: 0;
-  border-left: 10px solid white;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-}
-
-.not-first-label:after {
-  content: "";
-  position: absolute;
-  right: -10px;
-  bottom: 0;
-  width: 0;
-  height: 0;
-  border-left: 10px solid lightpink;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-}
-
 .last-label {
-  min-width: 100px;
+  min-width: 150px;
   height: 20px;
   position: relative;
   background: lightpink;
@@ -438,39 +404,39 @@ ul {
   width: 75%;
   margin: auto;
   margin-top: 150px;
-  margin-bottom: 30px;
-}
-
-.faq-content-logo i {
-  width: 30px;
-  padding-top: 20px;
-}
-
-.faq-content-logo img {
-  width: 30px;
-  padding-top: 20px;
+  margin-bottom: 40px;
 }
 
 .faq-content {
   display: flex;
+  margin-bottom: 10px;
+}
+
+.faq-content-logo img {
+  width: 25px;
+  padding-top: 15px;
 }
 
 .faq-question {
-  margin-bottom: 25px;
+  width: 200px;
   padding-right: 10px;
-  padding-left: 5px;
 }
 
 .faq-answer {
+  width: 550px;
   margin-bottom: 20px;
-  margin-left: 30px;
-  padding-left: 40px;
+  margin-left: 0;
   border-left: 2px solid green;
+  padding-left: 30px;
 }
 
 .faq-question p {
   text-transform: uppercase;
   font-weight: bold;
+}
+
+.faq-answer p {
+  font-size: 10px;
 }
 
 /*-------------------- Product Page ------------------------*/
@@ -512,9 +478,7 @@ ul {
 }
 
 .ul-product-active-page li {
-  margin: 0px 10px 0px 0px;
-  padding-left: 16px;
-  padding-right: 10px;
+  margin: 0px 7px 0px 0px;
 }
 
 .ul-product-options li h3 {
@@ -550,28 +514,9 @@ ul {
   font-weight: 400;
 }
 
-.product-old-price,
-.product-current-price {
-  font-size: 1rem;
-}
-
-.product-shipment {
-  margin-top: 4px;
-}
-
-.product-price {
-  margin-bottom: 0px;
-}
-
 /*.ul-other-finishes h3,
 .ul-details>h3*/
-.ul-details {
-  margin-left: 15px;
-}
 
-.ul-details li {
-  list-style: disc;
-}
 .product-pricing {
   font-size: 0.63rem;
 }
