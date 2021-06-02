@@ -89,7 +89,7 @@ body {
   background-color: #fbeeef;
 }
 
-.grid-item:hover  {
+.grid-item:hover {
   opacity: 0.5;
 }
 
@@ -357,7 +357,7 @@ ul {
 }
 
 .card-content:hover {
-  filter: drop-shadow(8px 8px 10px gray)
+  filter: drop-shadow(8px 8px 10px gray);
 }
 
 .card-content img {
@@ -462,8 +462,8 @@ ul {
   height: 25px;
 }
 
-path {
-  fill: green !important;
+.path-faq {
+  fill: green;
 }
 
 .faq-question {
@@ -674,4 +674,37 @@ path {
   margin-bottom: 40px;
   margin-left: 100px;
   margin-right: 100px;
+}
+
+.product-carousel-prev-icon {
+  position: relative;
+  top: 50%;
+  width: 44px;
+  height: 44px;
+  border: none;
+  border-radius: 50%;
+  background: white;
+  background: hsla(0, 0%, 100%, 0.75);
+  cursor: pointer;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.product-carousel-prev-icon svg {
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  width: 60%;
+  height: 60%;
+}
+.prev-icon.carousel {
+  height: 200px;
+}
+.previous {
+  left: 10px;
+}
+
+.arrow {
+  fill: gray;
 }
