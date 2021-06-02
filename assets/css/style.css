@@ -414,10 +414,18 @@ ul {
   margin-bottom: 10px;
 }
 
-.faq-content-logo img {
-  width: 25px;
+.faq-content-logo {
+  width: 30px;
   padding-top: 15px;
 }
+
+.Layer_1 {
+  height: 25px;
+}
+
+path {
+  fill: green !IMPORTANT;
+} 
 
 .faq-question {
   width: 200px;
@@ -435,7 +443,7 @@ ul {
 .faq-question p {
   text-transform: uppercase;
   font-weight: bold;
-} 
+}
 
 .faq-answer p {
   font-size: 10px;
