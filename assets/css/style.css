@@ -409,6 +409,11 @@ ul {
   margin-bottom: 30px;
 }
 
+.faq-content-logo i {
+  width: 30px;
+  padding-top: 20px;
+}
+
 .faq-content-logo img {
   width: 30px;
   padding-top: 20px;
